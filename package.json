@@ -3,7 +3,9 @@
     "type": "module",
     "scripts": {
         "build": "vite build",
-        "dev": "vite"
+        "dev": "vite",
+        "storage-link": "php artisan storage:link",
+        "npm-run": "npm run dev"
     },
     "devDependencies": {
         "@tailwindcss/forms": "^0.5.2",

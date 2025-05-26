@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Login Admin</title>
-  <!-- <link rel="stylesheet" href="{{ asset('css/login-admin.css') }}"> -->
-   <link rel="stylesheet" href="https://liliytoys-tubes-production-123e.up.railway.app/css/login-admin.css">
+  <link rel="stylesheet" href="{{ asset('css/login-admin.css') }}">
+  <link rel="stylesheet" href="https://liliytoys-tubes-production-123e.up.railway.app/css/login-admin.css">
 
 </head>
 <body>

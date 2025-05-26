@@ -55,6 +55,9 @@
         ],
         "storage-link": [
             "@php artisan storage:link"
+        ],
+        "npm-run": [
+            "npm run dev"
         ]
     },
     "extra": {

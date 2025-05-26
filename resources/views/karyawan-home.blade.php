@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Home Page Karyawan</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('css/karyawan.css') }}">
+    <link rel="stylesheet" href="https://liliytoys-tubes-production-123e.up.railway.app/css/karyawan.css">
+
 </head>
 <body>
     <div class="container">
@@ -24,7 +27,7 @@
                     <script>
                         function logoutAndRedirect() {
                             document.getElementById('logout-form').submit();
-                            window.location.href = "{{ url('landing') }}";
+                            window.location.href = "{{ url('') }}";
                         }
                     </script>
 

@@ -6,6 +6,7 @@
   <title>Lily Toys</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="{{ asset('css/landing.css') }}">
+  <link rel="stylesheet" href="https://liliytoys-tubes-production-123e.up.railway.app/css/landing.css">
 </head>
 
 <body>
@@ -60,7 +61,7 @@
         <div class="col-md-4 mb-4">
             <div class="desc">
           <img src="{{ asset('images/Logo.png') }}" alt="Logo" class="img-fluid mb-3" style="max-width: 150px;">
-          <p>Kami menyediakan layanan laundry profesional dengan teknologi canggih dan tim berpengalaman.</p>
+          <p></p>
           <p class="text-muted mt-4">Lily Toy's © 2025. All rights reserved.</p>
         </div>
     </div>
@@ -68,14 +69,14 @@
         <!-- Kolom 2 -->
         <div class="col-md-4 mb-4">
           <h5 class="fw-bold border-bottom pb-2">KONTAK KAMI</h5>
-          <p><a href="mailto:lilytoys@gmail.com">lilytoys@gmail.com</a><br><a href="https://wa.me/08997761762">08997761762</a></p>
+          <p><a href="mailto:lilytoys@gmail.com">lilytoys@gmail.com</a><br><a href="https://wa.me/628997550128">08997550128</a></p>
         </div>
 
         <!-- Kolom 3 -->
         <div class="col-md-4 mb-4">
           <h5 class="fw-bold border-bottom pb-2">LOKASI</h5>
-          <img src="{{ asset('images/location.jpg') }}" alt="Lokasi" class="img-fluid rounded mb-2" style="max-width: 100%;">
-          <p>JL. Pantai Indah Kapuk 2</p>
+          <img src="{{ asset('images/lokasi.jpg') }}" alt="Lokasi" class="img-fluid rounded mb-2" style="max-width: 100%;">
+          <p>Ps. Tagog Padalarang lt. 3, Jl. Raya Purwakarta, Kertamulya, Kec. Padalarang, Kabupaten Bandung Barat, Jawa Barat</p>
         </div>
       </div>
     </div>

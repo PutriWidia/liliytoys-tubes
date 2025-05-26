@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('css/admin-home.css') }}">
+    <link rel="stylesheet" href="https://liliytoys-tubes-production-123e.up.railway.app/css/admin-home.css">
+
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -28,7 +31,7 @@
                             document.getElementById('logout-form').submit();
 
                             // Redirect setelah logout
-                            window.location.href = "{{ url('landing') }}";
+                            window.location.href = "{{ url('') }}";
                         }
                     </script>
 
